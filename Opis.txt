@@ -1,0 +1,18 @@
+Mihajlo Jankovic 616-2019
+
+Prvi domaci iz MIPS-a
+
+M I H A J L O    J A N K O V I C   -broj samoglasnika:6
+				   -broj suglasnika:9
+				   -ime:7
+				   -prezime:8
+
+
+Koristi se port B zato sto je broj suglasnika veci od broja samoglasnika
+Koristi se pin broj 3 jer je 7+8=15 broj slova imena i prezimena koji pri deljenju sa 6 daje ostatak 3
+
+Prvo izvrsavanje se ponavlja 7 puta zbog br. slova u imenu
+Drugo izvrsavanje ponavlja se 8 puta zbog br. slova u prezimenu
+
+U prvom izvrsavanju sirina impulsa je = 7, a sirina pauze = 8
+U drugom izvrsavanju sirina impulsa je = 8, a sirina pauze je = 7 
